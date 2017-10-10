@@ -6,10 +6,6 @@ $(call inherit-product, vendor/hexagon/configs/common.mk)
 
 # Inherit telephony stuff
 $(call inherit-product, vendor/hexagon/configs/telephony.mk)
-
-# Enhanced NFC
-$(call inherit-product, vendor/hexagon/configs/nfc_enhanced.mk)
-
 # Inherit device configuration
 $(call inherit-product, device/samsung/i9300/full_i9300.mk)
 
